@@ -906,7 +906,7 @@ button:focus {
 ============================================================================================ */
 .events_area {
   padding: 130px 0 100px;
-  background: #f4633a; }
+  background: #ffffff; }
   @media (max-width: 991px) {
     .events_area {
       padding: 70px 0; } }
