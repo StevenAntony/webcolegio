@@ -419,13 +419,13 @@ button:focus {
       right: 0;
       top: 0;
       bottom: 0;
-      background: rgba(0, 35, 71, 0.8); }
+      background: rgb(255 255 255 / 80%); }
     .banner_area .banner_inner .banner_content {
       position: relative;
       z-index: 2;
       color: #fff; }
       .banner_area .banner_inner .banner_content h2 {
-        color: #fff;
+        color: #2c2c2c;
         font-size: 45px;
         margin-bottom: 0px; }
       .banner_area .banner_inner .banner_content .page_link {
