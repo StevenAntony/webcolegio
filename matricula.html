@@ -1,0 +1,149 @@
+
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="utf-8" />
+    <title>Colegio Ricardo Palma</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Premium Bootstrap 4 Landing Page Template" />
+    <meta name="keywords" content="bootstrap 4, premium, marketing, multipurpose" />
+    <meta content="Themesbrand" name="author" />
+    <!-- favicon -->
+    <link rel="shortcut icon" href="images/favicon.ico">
+
+    <!-- css -->
+    <link href="css/bootstrap.min.css" rel="stylesheet" type="text/css" />
+    <link href="css/materialdesignicons.min.css" rel="stylesheet" type="text/css" />
+    <link href="css/style.min.css" rel="stylesheet" type="text/css" />
+    <!-- Font Awesome -->
+    <link href="css/animate.min.css" rel="stylesheet">
+    <link href="css/font-awesome.min.css" rel="stylesheet">
+    <link href="css/line-awesome.min.css" rel="stylesheet">
+    <link href="css/estilos.css" rel="stylesheet" type="text/css"/>
+    <style>
+html,
+body {
+  margin: 0;
+  padding: 0;
+}
+
+/* use viewport-relative units to cover page fully */
+body, .section2 {
+  height: 100vh;
+  width: 100vw;
+}
+</style>
+
+
+</head>
+
+<body>
+
+
+    <section class="section2 fondo_primeros_puestos pad0">
+        <div class="container-fluid">
+            <div class="row justify-content-center">
+                <div class="ml80 fondo_registro_2021 hailitar_header">
+					<div class="row">
+						<div class="col-lg-6 col-xs-6 contenedor_mobile_logo">
+							<img src="images/colegio/logo_colegio.svg" alt="Logo Colegio">
+						</div>
+						<div class="col-lg-6 col-xs-6 contenedor_mobile_iconos">
+              <a href="https://www.trilce.edu.pe/colegio">
+                <img src="images/colegio/home.svg" alt="Logo Colegio" class="icono_colegio">
+              </a>
+							<a href="https://api.whatsapp.com/send?phone=51922336565&text=Me%20gustar%C3%ADa%20obtener%20m%C3%A1s%20informaci%C3%B3n">
+                <img src="images/colegio/whatsapp.svg" alt="Logo Colegio" class="icono_colegio">
+              </a>
+							<a href="tel:016198100">
+                <img src="images/colegio/telefono.svg" alt="Logo Colegio" class="icono_colegio">
+              </a>
+							<br>
+							<span class="texto_telefono">6198 100</span>
+						</div>
+					</div>
+                </div>
+                <div class="col-lg-6 fondo_colegio full_height">
+                </div>
+                <div class="col-lg-6 pt-3 fondo_registro_2021 full_height">
+                    <div class="ml80">
+						<div class="row">
+							<div class="col-lg-6 hailitar_mobile">
+								<img src="images/colegio/logo_colegio.svg" alt="Logo Colegio">
+							</div>
+							<div class="col-lg-6 hailitar_mobile">
+                <a href="https://www.trilce.edu.pe/colegio">
+								  <img src="images/colegio/home.svg" alt="Logo Colegio" class="icono_colegio">
+                </a>
+                <a href="https://api.whatsapp.com/send?phone=51922336565&text=Me%20gustar%C3%ADa%20obtener%20m%C3%A1s%20informaci%C3%B3n">
+								  <img src="images/colegio/whatsapp.svg" alt="Logo Colegio" class="icono_colegio">
+                </a>
+                <a href="tel:016198100">
+								  <img src="images/colegio/telefono.svg" alt="Logo Colegio" class="icono_colegio">
+                </a>
+								<br>
+								<span class="texto_telefono">6198 100</span>
+							</div>
+						</div>
+						<img src="images/colegio/logo-matricula-2022.svg" alt="Trilce Colegio" class="mt40" style="width: 160px; margin-top: 1.5rem">
+                    </div>
+                    <div class="ml80">
+                        <p class="contenedor_descripcion_colegio">Regístrate y nos comunicaremos contigo para iniciar el proceso de admisión 2022.</p>
+                        <form class="registration-form w_form" action="landing_gracias_colegio_sat.php" method="post">
+                            <div class="form-group mb-2">
+                                <input type="text" class="form-control fondo_blanco" id="dni" name="dni" placeholder="DNI del alumno" required="required" onkeypress="return isNumber(event)" onpaste="return false;" minlength="8" maxlength="9">
+                            </div>
+							<div class="form-group mb-2">
+                                <input type="text" class="form-control fondo_blanco" id="nombres" name="nombres" placeholder="Nombres del alumno" required="required" minlength="3">
+                            </div>
+							<div class="form-group mb-2">
+                                <input type="text" class="form-control fondo_blanco" id="apellido_paterno" name="apellido_paterno" placeholder="Apellido Paterno del alumno" required="required" minlength="3">
+                            </div>
+							<div class="form-group mb-2">
+                                <input type="text" class="form-control fondo_blanco" id="apellido_materno" name="apellido_materno" placeholder="Apellido Materno del alumno" required="required" minlength="3">
+                            </div>
+							<div class="form-group mb-2">
+                                <input type="email" class="form-control fondo_blanco" id="email" name="email" placeholder="Correo electrónico" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,3}$" required="required">
+                            </div>
+							<div class="form-group mb-2">
+                                <input type="text" class="form-control fondo_blanco" id="telefono" name="telefono" placeholder="Teléfono" required="required" onkeypress="return isNumber(event)" onpaste="return false;" minlength="7" maxlength="12">
+                            </div>
+							<div class="form-group mb-2">
+                                <select class="form-control fondo_blanco icono_select" id="sede" name="sede" required="required">
+                                    <option value="" selected="selected">Sede de interés</option>
+                                </select>
+                            </div>
+                            <div class="form-group mb-2">
+                                <select class="form-control fondo_blanco icono_select" id="grado" name="grado" required="required">
+                                    <option value="" selected="selected">Grado de interés</option>
+                                </select>
+                            </div>
+                            <div class="form-group mb-2">
+                                <input type="checkbox" name="acepta" required="required"> 
+                                    <span class="texto_acepta" style="color: #fff">He leido y acepto <a class="check-div-a>" id="myBtn" style="color: #fff;text-decoration: underline !important;font-family: 'NSB';cursor: pointer;">términos y condiciones.</b></a>
+                                   </span>
+                            </div>
+                            <button type="submit" class="btn btn-primary btn-block texto_solicita vista_home_boton1"><b style="font-family: NSB !important">Registrar</b></button>
+							<p class="pie">© 2021 Trilce. Todos los derechos reservados.</p>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <!-- javascript -->
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/smooth-scroll.polyfills.min.js"></script>
+    <script src="js/gumshoe.polyfills.min.js"></script>
+    <!-- feather icon -->
+    <script src="js/feather.js"></script>
+    <!-- unicons icon -->
+    <script src="js/unicons.js"></script>
+    <!-- Main Js -->
+    <script src="js/jquery.min.js"></script>
+    <script src="js/script.js"></script>
+
+</body>
+</html>
