@@ -43,7 +43,7 @@
 
 .contenido1_preparacion
 {
-	font-family: GR;
+	font-family: sans-serif;
 	font-weight: normal;
 	font-size: 15px;
 	line-height: 19px;
@@ -51,7 +51,7 @@
 
 .contenido2_preparacion
 {
-	font-family: NSB;
+	font-family: sans-serif;
 	font-size: 22px;
 	line-height: 30px;
 }
@@ -63,7 +63,7 @@
 
 .contenido1_opcion
 {
-	font-family: GR;
+	font-family: sans-serif;
 	font-weight: normal;
 	font-size: 13px;
 	line-height: 19px;
@@ -114,7 +114,7 @@
 
 .subtitulo_participante_resultado
 {
-	font-family: GR;
+	font-family: sans-serif;
 	font-style: normal;
 	font-weight: 600;
 	font-size: 18px;
@@ -124,7 +124,7 @@
 
 .subtitulo_participante_resultado2
 {
-	font-family: GR;
+	font-family: sans-serif;
 	font-style: normal;
 	font-weight: normal;
 	font-size: 15px;
@@ -135,7 +135,7 @@
 
 .subtitulo_participante_resultado3
 {
-	font-family: GR;
+	font-family: sans-serif;
 	font-style: normal;
 	font-weight: normal;
 	font-size: 15px;
@@ -161,7 +161,7 @@
 
 .titulos_seccion
 {
-	font-family: NSB;
+	font-family: sans-serif;
 	font-style: normal;
 	font-weight: 900;
 	font-size: 22px;
@@ -171,7 +171,7 @@
 
 .subtitulos_seccion
 {
-	font-family: GR;
+	font-family: sans-serif;
 	font-style: normal;
 	font-weight: 500;
 	font-size: 14px;
@@ -202,7 +202,7 @@
 
 .contenedor_descripcion_colegio
 {
-	font-family: GR;
+	font-family: sans-serif;
     font-style: normal;
     font-weight: 600;
     font-size: 16px;
@@ -219,7 +219,7 @@
 
 .titulo_footer
 {
-	font-family: GR;
+	font-family: sans-serif;
 	font-style: normal;
 	font-weight: normal;
 	font-size: 15px;
@@ -236,7 +236,7 @@
 
 .copyright
 {
-	font-family: GR;
+	font-family: sans-serif;
 	font-style: normal;
 	font-weight: normal;
 	font-size: 15px;
@@ -355,7 +355,7 @@
 	}
 	.gracias_titulo 
 	{
-		font-family: NSB;
+		font-family: sans-serif;
 		font-style: normal;
 		font-weight: 900;
 		font-size: 20px;
@@ -365,7 +365,7 @@
 	}
 	.gracias_descripcion 
 	{
-		font-family: GR;
+		font-family: sans-serif;
 		font-style: normal;
 		font-weight: normal;
 		font-size: 14px;
@@ -395,7 +395,7 @@
 	.texto_telefono 
 	{
 		color: #fff;
-		font-family: GR;
+		font-family: sans-serif;
 		margin: 0px 0px 0px 84px;
 		display: none;
 	}
@@ -418,7 +418,7 @@
 
 	.fondo_registro_2021
 	{
-		background-color: #FF7738;
+		background-color: #048279;
 		text-align: center;
 	}
 	.w_form
@@ -429,7 +429,7 @@
 	.pie
 	{
 		color: #fff; 
-		font-family: GR; 
+		font-family: sans-serif; 
 		text-align: center; 
 		padding:14px 0px 20px 0px; 
 		margin:0px;
@@ -438,7 +438,7 @@
 	.pie_2
 	{
 		color: #fff; 
-		font-family: GR; 
+		font-family: sans-serif; 
 		text-align: center; 
 		padding:24px 0px 0px 0px; 
 		margin:0px; 
@@ -447,7 +447,7 @@
 	}
 	.contenedor_descripcion_colegio
 	{
-		font-family: GR;
+		font-family: sans-serif;
 		font-style: normal;
 		font-weight: 600;
 		font-size: 16px;
@@ -540,7 +540,7 @@
 
 	.titulo_preparacion
 	{
-		font-family: NSB;
+		font-family: sans-serif;
 		font-style: normal;
 		font-weight: 900;
 		font-size: 26px;
@@ -576,7 +576,7 @@
 	.titulo_opcion
 	{
 		font-size: 26px;
-		font-family: NSB;
+		font-family: sans-serif;
 		font-weight: 900;
 		line-height: 28px;
 		padding: 0px 30px 0px 30px;
@@ -610,7 +610,7 @@
 
 	.titulo_video
 	{
-		font-family: NSB;
+		font-family: sans-serif;
 		font-style: normal;
 		font-weight: 900;
 		font-size: 24px;
@@ -668,7 +668,7 @@
 
 	.titulo_resultados
 	{
-		font-family: NSB;
+		font-family: sans-serif;
 		font-style: normal;
 		font-weight: 900;
 		font-size: 26px;
@@ -686,7 +686,7 @@
 
 	.titulo_primeros_puestos
 	{
-		font-family: NSB;
+		font-family: sans-serif;
 		font-style: normal;
 		font-weight: 900;
 		font-size: 26px;
@@ -786,7 +786,7 @@
 	}
 	.fondo_registro_2021
 	{
-		background-color: #F3744A;
+		background-color: #048279;
 	}
 	.w_form
 	{
@@ -801,7 +801,7 @@
 	}
 	.gracias_titulo
 	{
-		font-family: NSB;
+		font-family: sans-serif;
 		font-style: normal;
 		font-weight: 900;
 		font-size: 20px;
@@ -812,7 +812,7 @@
 	}
 	.gracias_descripcion
 	{
-		font-family: GR;
+		font-family: sans-serif;
 		font-style: normal;
 		font-weight: normal;
 		font-size: 14px;
@@ -823,7 +823,7 @@
 	.pie
 	{
 		color: #fff; 
-		font-family: GR; 
+		font-family: sans-serif; 
 		text-align: center; 
 		padding:14px 0px 0px 0px; 
 		margin:0px
@@ -831,7 +831,7 @@
 	.pie_2
 	{
 		color: #fff; 
-		font-family: GR; 
+		font-family: sans-serif; 
 		text-align: left; 
 		padding:24px 0px 0px 0px; 
 		margin:0px;
@@ -846,7 +846,7 @@
 	.texto_telefono
 	{
 		color: #fff; 
-		font-family: GR;
+		font-family: sans-serif;
 		margin: 0px 0px 0px 84px;
 	}
 	.pad0
@@ -905,7 +905,7 @@
 
 	.titulo_video2
 	{
-		font-family: NSB;
+		font-family: sans-serif;
 		font-style: normal;
 		font-weight: 900;
 		font-size: 40px;
@@ -918,7 +918,7 @@
 
 	.titulo_video3
 	{
-		font-family: NSB;
+		font-family: sans-serif;
 		font-style: normal;
 		font-weight: 900;
 		font-size: 36px;
@@ -931,7 +931,7 @@
 
 	.titulo_video4
 	{
-		font-family: NSB;
+		font-family: sans-serif;
 		font-style: normal;
 		font-weight: 900;
 		font-size: 34px;
@@ -1006,7 +1006,7 @@
 	.titulo_preparacion
 	{
 		font-size: 30px;
-		font-family: NSB;
+		font-family: sans-serif;
 		font-weight: 900;
 		line-height: 30px;
 	}
@@ -1019,7 +1019,7 @@
 	.titulo_opcion
 	{
 		font-size: 30px;
-		font-family: NSB;
+		font-family: sans-serif;
 		font-weight: 900;
 		line-height: 30px;
 	}
@@ -1051,7 +1051,7 @@
 
 	.titulo_video
 	{
-		font-family: NSB;
+		font-family: sans-serif;
 		font-style: normal;
 		font-weight: 900;
 		font-size: 28px;
@@ -1103,7 +1103,7 @@
 
 	.titulo_resultados
 	{
-		font-family: NSB;
+		font-family: sans-serif;
 		font-style: normal;
 		font-weight: 900;
 		font-size: 30px;
@@ -1115,7 +1115,7 @@
 
 	.subtitulo_resultados
 	{
-		font-family: GR;
+		font-family: sans-serif;
 		font-style: normal;
 		font-weight: normal;
 		font-size: 15px;
@@ -1125,7 +1125,7 @@
 
 	.titulo_primeros_puestos
 	{
-		font-family: NSB;
+		font-family: sans-serif;
 		font-style: normal;
 		font-weight: 900;
 		font-size: 30px;
@@ -1167,7 +1167,7 @@
 	/* CICLOS UNI */
 	.titulo_preparacion_ciclos
 	{
-		font-family: NSB;
+		font-family: sans-serif;
 		font-style: normal;
 		font-weight: 900;
 		font-size: 26px;
