@@ -401,7 +401,7 @@
 	}
 	.fondo_colegio
 	{
-		background-image: url('../images/foto_colegio_mobile.png');
+		background-image: url('../asset/img/estudiando.jpg');
 		height: 400px;
 		background-repeat: no-repeat;
     	background-size: cover;
@@ -863,7 +863,7 @@
 	}
 	.fondo_landing
 	{
-		background-image: url('../images/foto_landing.png');
+		background-image: url('../asset/img/estudiando.jpg');
 		height: 752px;
 		background-repeat: no-repeat;
     	background-size: cover;
@@ -871,7 +871,7 @@
 	
 	.fondo_colegio
 	{
-		background-image: url('../images/foto_colegio.png');
+		background-image: url('../asset/img/estudiando.jpg');
 		background-repeat: no-repeat;
     	background-size: cover;
 	}
