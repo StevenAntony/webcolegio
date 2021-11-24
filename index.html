@@ -485,6 +485,14 @@
     </a>
 
 </div>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+<script>
+ function aparecer(id){
+   $('.tab-contents').addClass('hide')
+   $('#'+id).removeClass('hide');
+
+ }
+</script>
 
 <div class="nuevos-i container-base">
   <div class="row center-xs">
@@ -496,7 +504,7 @@
       </div>
 
       <div class="colegio-cardsv2-items colegio-cardsv2-items--hovereffect" style="flex-wrap: wrap!important;">
-        <a href="#" class="colegio-cardsv2-items__item">
+        <a href="#" class="colegio-cardsv2-items__item" onclick="aparecer('tab01')">
           <div class="colegio-cardsv2-items__symbol">
             <span><i class="fa fa-plus"></i></span>
           </div>
@@ -510,7 +518,7 @@
           </div>
         </a>
 
-        <a href="#" class="colegio-cardsv2-items__item">
+        <a href="#" class="colegio-cardsv2-items__item" onclick="aparecer('tab02')">
           <div class="colegio-cardsv2-items__symbol">
             <span><i class="fa fa-exchange"></i></span>
           </div>
@@ -524,7 +532,7 @@
           </div>
         </a>
 
-        <a href="#" class="colegio-cardsv2-items__item">
+        <a href="#" class="colegio-cardsv2-items__item" onclick="aparecer('tab03')">
           <div class="colegio-cardsv2-items__symbol">
             <span><i class="fa fa-star"></i></span>
           </div>
